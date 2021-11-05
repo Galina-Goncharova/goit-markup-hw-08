@@ -55,7 +55,7 @@
   justify-content: center;
   @media screen and(min-width: 1200px) {
     align-items: flex-start;
-    margin-right: 70px;
+    // margin-right: 70px;
   }
 }
 
@@ -133,9 +133,16 @@
   }
 
   @media (min-width: 1200px) {
-    margin-left: 23px;
+    // margin-left: 23px;
     width: 570px;
     height: 86px;
+  }
+}
+
+.form-footer {
+  @media screen and(min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
   }
 }
 
@@ -177,7 +184,7 @@
   @media (min-width: 1200px) {
     display: inline-block;
     width: 358px;
-    margin-right: 12px;
+    // margin-right: 12px;
   }
 }
 
@@ -192,7 +199,7 @@
   position: relative;
   margin: 0;
   min-height: 43px;
-  margin-left: 12px;
+  // margin-left: 12px;
 }
 
 .footer-svg {
