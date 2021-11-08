@@ -390,6 +390,10 @@
 .header__logo {
   margin-right: 93px;
   color: var(--logo-header-color);
+  @media screen and(max-width: 1199px) {
+    font-size: 24px;
+    line-height: 1.17;
+  }
 }
 
 // .header__logo {
@@ -419,7 +423,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--secondary-title-color);
 
   position: relative;
 

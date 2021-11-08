@@ -39,6 +39,7 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 body {
@@ -116,13 +117,14 @@ body {
   font-weight: 700;
   text-align: center;
   color: var(--secondary-title-color);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1200px) {
   .secondary-title {
     font-size: 36px;
     line-height: 1.17;
+    margin-bottom: 50px;
   }
 }
 
@@ -211,13 +213,20 @@ body {
 }
 
 .modal {
-  width: 528px;
-  min-height: 581px;
+  width: 450px;
+  height: 609px;
   background-color: var(--background-color-header);
   border-radius: 4px;
   position: relative;
   padding: 40px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    min-height: 581px;
+  }
 }
 
 .title-modal {
@@ -404,6 +413,13 @@ body {
   color: var(--logo-header-color);
 }
 
+@media screen and (max-width: 1199px) {
+  .header__logo {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+}
+
 .nav {
   display: flex;
 }
@@ -426,7 +442,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--secondary-title-color);
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1308,6 +1324,10 @@ body {
 .project-wrapper {
   position: relative;
   overflow: hidden;
+}
+
+.project-wrapper img {
+  width: 100%;
 }
 
 .project-title {

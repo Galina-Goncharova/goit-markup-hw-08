@@ -4,9 +4,10 @@
   font-weight: 700;
   text-align: center;
   color: var(--secondary-title-color);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   @media screen and(min-width: 1200px) {
     font-size: 36px;
     line-height: 1.17;
+    margin-bottom: 50px;
   }
 }
