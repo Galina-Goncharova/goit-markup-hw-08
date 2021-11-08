@@ -104,6 +104,13 @@
 <path d="M6.4 11.734v-2.134h19.2v2.134h-19.2zM6.4 17.066h19.2v-2.133h-19.2v2.133zM6.4 22.4h19.2v-2.134h-19.2v2.134z"></path>
 </symbol>
 
+<symbol id="icon-menu_24px" viewBox="0 0 48 32">
+<path fill="#e5e5e5" style="fill: var(--color1, #e5e5e5)" d="M0 0h48v32h-48v-32z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M-866-44h960v10914h-960v-10914z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M-866-44h960v120h-960v-120z"></path>
+<path fill="#000" style="fill: var(--color3, #000)" d="M0 5.333v-5.333h48v5.333h-48zM0 18.667h48v-5.333h-48v5.333zM0 32h48v-5.333h-48v5.333z"></path>
+</symbol>
+
 </defs>
 </svg>
 
